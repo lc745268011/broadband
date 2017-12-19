@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--声明文档的兼容模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <!--移动设备-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <link rel="stylesheet" href="./res/css/main.css"/>
+    <link rel="stylesheet" href="./res/css/H-ui.reset.css"/>
+    <script src="./res/js/jquery-1.10.2.js"></script>
+    <title></title>
+</head>
+<body class="broadband">
+<div>
+    <img src="./res/img/banner.jpg" alt="" class="banner"/>
+
+    <div class="part">
+        <h1 class="title partImg">您所在的省市</h1>
+
+        <p class="desc">请选择宽带的使用地点，不选或错选会影响您成功办理产品</p>
+
+        <div class="partCon">
+            <select name="" id="province">
+                <option data-province-name="北京" data-code="110000" data-ess-code="11" value="110000">北京</option>
+                <option data-province-name="天津" data-code="120000" data-ess-code="13" value="120000">天津</option>
+                <option data-province-name="河北" data-code="130000" data-ess-code="18" value="130000">河北</option>
+                <option data-province-name="山西" data-code="140000" data-ess-code="19" value="140000">山西</option>
+                <option data-province-name="内蒙古" data-code="150000" data-ess-code="10" value="150000">内蒙古</option>
+                <option data-province-name="辽宁" data-code="210000" data-ess-code="91" value="210000">辽宁</option>
+                <option data-province-name="吉林" data-code="220000" data-ess-code="90" value="220000">吉林</option>
+                <option data-province-name="黑龙江" data-code="230000" data-ess-code="97" value="230000">黑龙江</option>
+                <option data-province-name="上海" data-code="310000" data-ess-code="31" value="310000">上海</option>
+                <option data-province-name="江苏" data-code="320000" data-ess-code="34" value="320000">江苏</option>
+                <option data-province-name="浙江" data-code="330000" data-ess-code="36" value="330000">浙江</option>
+                <option data-province-name="安徽" data-code="340000" data-ess-code="30" value="340000">安徽</option>
+                <option data-province-name="福建" data-code="350000" data-ess-code="38" value="350000">福建</option>
+                <option data-province-name="江西" data-code="360000" data-ess-code="75" value="360000">江西</option>
+                <option data-province-name="山东" data-code="370000" data-ess-code="17" value="370000">山东</option>
+                <option data-province-name="河南" data-code="410000" data-ess-code="76" value="410000">河南</option>
+                <option data-province-name="湖北" data-code="420000" data-ess-code="71" value="420000">湖北</option>
+                <option data-province-name="湖南" data-code="430000" data-ess-code="74" value="430000">湖南</option>
+                <option data-province-name="广东" data-code="440000" data-ess-code="51" value="440000">广东</option>
+                <option data-province-name="广西" data-code="450000" data-ess-code="59" value="450000">广西</option>
+                <option data-province-name="海南" data-code="460000" data-ess-code="50" value="460000">海南</option>
+                <option data-province-name="重庆" data-code="500000" data-ess-code="83" value="500000">重庆</option>
+                <option data-province-name="四川" data-code="510000" data-ess-code="81" value="510000">四川</option>
+                <option data-province-name="贵州" data-code="520000" data-ess-code="85" value="520000">贵州</option>
+                <option data-province-name="云南" data-code="530000" data-ess-code="86" value="530000">云南</option>
+                <option data-province-name="西藏" data-code="540000" data-ess-code="79" value="540000">西藏</option>
+                <option data-province-name="陕西" data-code="610000" data-ess-code="84" value="610000">陕西</option>
+                <option data-province-name="甘肃" data-code="620000" data-ess-code="87" value="620000">甘肃</option>
+                <option data-province-name="青海" data-code="630000" data-ess-code="70" value="630000">青海</option>
+                <option data-province-name="宁夏" data-code="640000" data-ess-code="88" value="640000">宁夏</option>
+                <option data-province-name="新疆" data-code="650000" data-ess-code="89" value="650000">新疆</option>
+            </select>
+            <select name="" id="city">
+                <option data-code="110100" data-ess-code="110" value="110100">北京市</option>
+            </select>
+        </div>
+    </div>
+    <div class="part">
+        <h1 class="title partImg2">选择宽带套餐</h1>
+
+        <div class="partCon">
+            <ul class="cl">
+                <li class="list">
+                    <div class="flag"><img src="./res/img/flag.png" alt=""/></div>
+                    <div class="box">
+                        <div class="info">
+                            <div>
+                                100<span></span>
+                            </div>
+                        </div>
+                        <p>【1192元/年】</p>
+                    </div>
+
+                </li>
+                <li class="list">
+                    <div class="flag"><img src="./res/img/flag.png" alt=""/></div>
+                    <div class="box">
+                        <div class="info">
+                            <div>
+                                50<span></span>
+                            </div>
+                        </div>
+                        <p>【1192元/年】</p>
+                    </div>
+
+                </li>
+                <li class="list">
+                    <div class="flag"><img src="./res/img/flag.png" alt=""/></div>
+                    <div class="box">
+                        <div class="info">
+                            <div>
+                                5<span></span>
+                            </div>
+                        </div>
+                        <p>【1192元/年】</p>
+                    </div>
+
+                </li>
+                <li class="list">
+                    <div class="flag"><img src="./res/img/flag.png" alt=""/></div>
+                    <div class="box">
+                        <div class="info">
+                            <div>
+                                150<span></span>
+                            </div>
+                        </div>
+                        <p>【1192元/年】</p>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="part" style="margin-bottom: 0">
+        <h1 class="title partImg3">填写入网信息</h1>
+        <div class="partCon">
+            <ul class="userInfo">
+                <li class="cl">
+                    <div class="l">
+                        姓名：
+                    </div>
+                    <div class="r">
+                        <input type="text" placeholder="请输入用户姓名"/>
+                    </div>
+                </li>
+                <li class="cl">
+                    <div class="l">
+                        身份证号：
+                    </div>
+                    <div class="r">
+                        <input type="text" placeholder="请输入用户身份证"/>
+                    </div>
+                </li>
+                <li class="cl">
+                    <div class="l">
+                        联系电话：
+                    </div>
+                    <div class="r">
+                        <input type="text" placeholder="请输入用户联系电话"/>
+                    </div>
+                </li>
+                <li class="cl">
+                    <div class="l">
+                        安装地址：
+                    </div>
+                    <div class="r">
+                        <select name="province1" id="province1">
+                            <option value="">1</option>
+                            <option value="">1</option>
+                            <option value="">1</option>
+                            <option value="">1</option>
+                        </select>
+                        <select name="city1" id="city1">
+                            <option value="">1</option>
+                            <option value="">1</option>
+                            <option value="">1</option>
+                            <option value="">1</option>
+                        </select>
+                        <select name="area1" id="area1">
+                            <option value="">1</option>
+                            <option value="">1</option>
+                            <option value="">1</option>
+                            <option value="">1</option>
+                        </select>
+                        <div>
+                            <input type="text" placeholder="精确到门牌号"/>
+                        </div>
+                    </div>
+                </li>
+                <li class="cl">
+                    <div class="l">
+                        验证码：
+                    </div>
+                    <div class="r">
+                        <div class="l code">
+                            <input type="text" placeholder="验证码"/>
+                        </div>
+                        <div>
+                            <img src="./res/img/code.jpg" alt="" style="height: 0.52rem"/>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <button>提交预订</button>
+            </div>
+        </div>
+    </div>
+    <div class="productInfo">
+        <h3 class="line">商品信息</h3>
+        <img src="./res/img/product.jpg" alt="" style="width: 100%"/>
+    </div>
+</div>
+<script>
+    (function (doc, win) {
+                var docEl = doc.documentElement,
+                        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                        recalc = function () {
+                            var clientWidth = docEl.clientWidth;
+                            if (!clientWidth) return;
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document, window);
+    $('.list').click(function(){
+        $(this).addClass('active');
+        $('.list').not(this).removeClass('active')
+    })
+</script>
+</body>
+</html>

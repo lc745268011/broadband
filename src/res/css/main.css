@@ -1,0 +1,110 @@
+*{font-family: 'Microsoft Yahei','Simsun',Helvetica,Arial,sans-serif;font-weight: 100;}
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+input,select{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);   /* 点击高亮的颜色*/
+}
+.l{float: left}
+.r{float: right}
+.broadband{background: #fffbff;color: #000}
+.p30{padding: 0 0.3rem;width: 100%;box-sizing: border-box}
+.broadband .banner{width: 100%}
+.broadband .part{padding: 0.3rem 0.3rem 0.16rem;background: #fff;margin-bottom: 0.2rem}
+.broadband .part .title{color: #1896e7;font-size: 0.32rem;background-repeat: no-repeat;padding-left: 0.5rem;}
+.broadband .part .partImg{background-image: url("../img/icon1.png");background-size: 0.26rem;background-position: center left}
+.broadband .part .partImg2{background-image: url("../img/icon2.png");background-size: 0.26rem;background-position: center left}
+.broadband .part .partImg3{background-image: url("../img/icon3.png");background-size: 0.26rem;background-position: center left}
+.broadband .part .desc{padding-left: 0.4rem;font-size: 0.24rem}
+.broadband .part .partCon{margin-top: 0.2rem}
+.broadband .part .partCon select#province,.broadband .part .partCon select#city{width: 3.1rem;height: 0.66rem;border: 1px solid #1896e7;border-radius: 0.08rem;font-size: 0.28rem;background-color: #fff;color: #000;font-weight: 300}
+.broadband .part .partCon select#province{margin-right: 0.14rem;}
+.broadband .part .list{width: 2.15rem;height: 2.15rem;border: 1px solid #dcdcdc;margin-right: 0.12rem;float: left;position: relative;}
+.broadband .part .list:nth-child(n+4){margin-top: 0.16rem}
+.broadband .part .list:nth-child(3n){margin-right: 0}
+.broadband .part .list.active{border: 1px solid #1896e7}
+.broadband .part .list .flag{position:absolute;left: 0;top: 0.12rem;width: 0.73rem;z-index: 9 }
+.broadband .part .list .flag img{width: 100% }
+.broadband .part .list .box{text-align: center;margin-top: 0.2rem}
+.broadband .part .list .box .info{width: 1.54rem;height: 1.42rem;background: url("../img/icon4.png") no-repeat;background-size:100%;margin: 0 auto ;position: relative}
+.broadband .part .list .box p{font-size: 0.26rem;color: #edae1f}
+.broadband .part .list .box .info span{background: url("../img/icon5.png") no-repeat;background-size: 0.3rem 0.41rem;width: 0.3rem;height: 0.41rem;display: inline-block}
+.broadband .part .list .box .info div{font-size: 0.54rem;color: #fff;font-weight: 700;position: absolute;top: 50%;transform: translateY(-50%);margin-left: 0.1rem;width: 100%;text-align: center}
+.broadband .part .userInfo li{margin-bottom: 0.3rem}
+.broadband .part .userInfo li .l{width: 1.2rem;margin-right: 0.13rem;text-align: right;font-size: 0.24rem;color: #000;    padding-top: 0.05rem;}
+.broadband .part .userInfo li .r{width: 5.57rem;min-height: 0.52rem}
+.broadband .part .userInfo li .r input{width: 100%;height: 0.52rem;line-height: 0.52rem;border: 1px solid #adaead;box-sizing: border-box;padding: 0 0.1rem;font-size: 0.24rem; -webkit-appearance:none;border-radius: 0;}
+.broadband .part .userInfo li .r input::-webkit-input-placeholder{color:#adaaad;}
+.broadband .part .userInfo li .r input:focus::-webkit-input-placeholder{color:#adaaad;}
+.broadband .part .userInfo li .r select{min-width: 1.54rem;height: 0.52rem;border: 1px solid #adaead;margin-bottom: 0.3rem;background-color: #fff;color: #000;font-weight: 300}
+.broadband .part .userInfo li .r .code{width: 1.54rem;height: 0.52rem;margin-right: 0.1rem}
+.broadband .part button{width: 100%;color: #fff;height: 0.74rem;line-height: 0.74rem;background: #73baf7;text-align: center;font-size: 0.3rem;border: 0;border-radius: 0.08rem;    font-weight: bold;}
+.broadband .line{position: relative;
+    line-height: 0.6rem;
+    z-index: 2;
+    width: 1.8rem;
+    margin: 0 auto 0.2rem;
+    font-size: 0.24rem;
+    color: #000;
+    text-align: center;
+    background: #fff;}
+.broadband .line:before{    position: absolute;
+    content: " ";
+    top: 0.26rem;
+    right: 0;
+    width: 0.1rem;
+    height: 0.1rem;
+    border: 1px solid #adaead;
+    border-radius: 0.1rem;}
+.broadband .line:after{
+    position: absolute;
+    content: " ";
+    top: 0.26rem;
+    left: 0;
+    width: 0.1rem;
+    height: 0.1rem;
+    border: 1px solid #adaead;
+    border-radius: 0.1rem;
+}
+.broadband .productInfo:after {
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #adaead;
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0.32rem;
+    z-index: 1;
+}
+.broadband .productInfo{background: #fff;position: relative}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
