@@ -18,7 +18,7 @@ input,select{
 }
 .l{float: left}
 .r{float: right}
-.broadband{background: #fffbff;color: #000}
+.broadband{background: #f9f9f9;color: #000}
 .p30{padding: 0 0.3rem;width: 100%;box-sizing: border-box}
 .broadband .banner{width: 100%}
 .broadband .part{padding: 0.3rem 0.3rem 0.16rem;background: #fff;margin-bottom: 0.2rem}
@@ -26,7 +26,7 @@ input,select{
 .broadband .part .partImg{background-image: url("../img/icon1.png");background-size: 0.26rem;background-position: center left}
 .broadband .part .partImg2{background-image: url("../img/icon2.png");background-size: 0.26rem;background-position: center left}
 .broadband .part .partImg3{background-image: url("../img/icon3.png");background-size: 0.26rem;background-position: center left}
-.broadband .part .desc{padding-left: 0.4rem;font-size: 0.24rem}
+.broadband .part .desc{padding-left: 0.5rem;font-size: 0.24rem}
 .broadband .part .partCon{margin-top: 0.2rem}
 .broadband .part .partCon select#province,.broadband .part .partCon select#city{width: 3.1rem;height: 0.66rem;border: 1px solid #1896e7;border-radius: 0.08rem;font-size: 0.28rem;background-color: #fff;color: #000;font-weight: 300}
 .broadband .part .partCon select#province{margin-right: 0.14rem;}
@@ -41,15 +41,16 @@ input,select{
 .broadband .part .list .box p{font-size: 0.26rem;color: #edae1f}
 .broadband .part .list .box .info span{background: url("../img/icon5.png") no-repeat;background-size: 0.3rem 0.41rem;width: 0.3rem;height: 0.41rem;display: inline-block}
 .broadband .part .list .box .info div{font-size: 0.54rem;color: #fff;font-weight: 700;position: absolute;top: 50%;transform: translateY(-50%);margin-left: 0.1rem;width: 100%;text-align: center}
-.broadband .part .userInfo li{margin-bottom: 0.3rem}
-.broadband .part .userInfo li .l{width: 1.2rem;margin-right: 0.13rem;text-align: right;font-size: 0.24rem;color: #000;    padding-top: 0.05rem;}
-.broadband .part .userInfo li .r{width: 5.57rem;min-height: 0.52rem}
-.broadband .part .userInfo li .r input{width: 100%;height: 0.52rem;line-height: 0.52rem;border: 1px solid #adaead;box-sizing: border-box;padding: 0 0.1rem;font-size: 0.24rem; -webkit-appearance:none;border-radius: 0;}
-.broadband .part .userInfo li .r input::-webkit-input-placeholder{color:#adaaad;}
-.broadband .part .userInfo li .r input:focus::-webkit-input-placeholder{color:#adaaad;}
-.broadband .part .userInfo li .r select{min-width: 1.54rem;height: 0.52rem;border: 1px solid #adaead;margin-bottom: 0.3rem;background-color: #fff;color: #000;font-weight: 300}
-.broadband .part .userInfo li .r .code{width: 1.54rem;height: 0.52rem;margin-right: 0.1rem}
-.broadband .part button{width: 100%;color: #fff;height: 0.74rem;line-height: 0.74rem;background: #73baf7;text-align: center;font-size: 0.3rem;border: 0;border-radius: 0.08rem;    font-weight: bold;}
+.broadband .part .userInfo li{margin-bottom: 0.2rem}
+.broadband .part .userInfo li .l{width: 1.8rem;margin-right: 0.1rem;text-align: right;font-size: 0.26rem;color: #000; height: 0.7rem;
+    line-height: 0.7rem;}
+.broadband .part .userInfo li .r{width: 5rem;min-height: 0.52rem}
+.broadband .part .userInfo li .r input{width: 100%;height: 0.7rem;line-height: 0.7rem;border: 1px solid #adaead;box-sizing: border-box;padding: 0 0.1rem;font-size: 0.26rem; -webkit-appearance:none;border-radius: 0;color: #000}
+/*.broadband .part .userInfo li .r input::-webkit-input-placeholder{color:#adaaad;}*/
+/*.broadband .part .userInfo li .r input:focus::-webkit-input-placeholder{color:#adaaad;}*/
+.broadband .part .userInfo li .r select{min-width: 1.54rem;height: 0.7rem;border: 1px solid #adaead;margin-bottom: 0.3rem;background-color: #fff;color: #000;font-weight: 300;font-size: 0.26rem}
+.broadband .part .userInfo li .r .code{width: 1.54rem;height: 0.7rem;margin-right: 0.1rem;line-height: 0.68rem;}
+.broadband .part button{width: 100%;color: #fff;height: 0.8rem;line-height: 0.8rem;background: #73baf7;text-align: center;font-size: 0.32rem;border: 0;border-radius: 0.08rem;    font-weight: bold;margin-top: 0.6rem}
 .broadband .line{position: relative;
     line-height: 0.6rem;
     z-index: 2;
@@ -88,8 +89,8 @@ input,select{
     z-index: 1;
 }
 .broadband .productInfo{background: #fff;position: relative}
-
-
+.code,.codeImg{display: inline-block}
+.broadband .part .partCon .userInfo{margin-top: 0.4rem;}
 
 
 
